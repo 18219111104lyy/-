@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+    <title>小小白的网页设计</title>
+    <base href="http://jxb.ojc.zj.cn/Template/Default/jxb/"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style type="text/css">
+.row{
+  float:left;
+}
+#myCarousel{
+width:100%;
+height:600px;
+    }
+.carousel-inner{
+position:absolute;
+top:100px;
+right:50px;
+left:0px;
+bottom:100px;
+    }
+.item{
+  position:absolute;
+  height:400px;
+  width:100%;
+}
+
+.head-tag{
+  font-size: 25px;
+}
+.glyphicon glyphicon-star{
+  font-size: 25px;
+}
+.top{
+  position:relative;
+  top:0px;
+}
+
+  </style>
+ 
+</head>
+<body>
+        <div class="top">
+                <dl>
+                <dt align="right"><a href='https://uland.taobao.com/sem/tbsearch?refpid=mm_26632360_8858797_29866178&clk1=dc18901b0931e26ddfdb4ef6e7aa641c&keyword=%E4%B8%9C%E9%87%8E%E5%9C%AD%E5%90%BE%E5%B0%8F%E8%AF%B4&page=0' target="_blank">淘宝购买</a> |
+                     <a href='http://s.music.so.com/s?q=%E4%B8%9C%E9%87%8E%E5%9C%AD%E5%90%BE&src=tab_www'target="_blank">音乐</a> |
+                      <a id='addFavorite' href='javascript:void(0)'>加入收藏</a> 
+                </dt>
+                </dl>
+               <dd align="left"><script type='text/javascript' src='Js/date.js'></script></dd>
+                <dd><iframe marginwidth='0' marginheight='0' src='http://i.tianqi.com/index.php?c=code&id=34&icon=1' frameborder='0' width='240' scrolling='no' height='20' allowtransparency='allowtransparency'></iframe></dd>
+              </dl>
+        </div>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="file:///H:/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1/Untitled-1.html">小说</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="file:///H:/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1/Untitled-1.html">主页</a></li>
+                  <li><a href="file:///H:/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1/%E9%A1%B5%E9%9D%A22.html">小说排行榜</a></li>
+                  <li><a href="https://search.bilibili.com/all?keyword=%E4%B8%9C%E9%87%8E%E5%9C%AD%E5%90%BE%E4%BD%9C%E5%93%81&from_source=banner_suggest&spm_id_from=333.334.b_62616e6e65725f6c696e6b.3">视频</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div id="myCarousel" class="carousel slide">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>   
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <a href="https://baike.baidu.com/item/%E7%99%BD%E5%A4%9C%E8%A1%8C/8646" target="_blank"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554875606472&di=8b93353f85ab5f25215e18140379be3e&imgtype=0&src=http%3A%2F%2Fimg2.mtime.com%2Fmg%2F2009%2F23%2Fa79a8d41-7337-4f83-b70b-270dbbbdd931.jpg"
+            alt="First slide" width="100%" height="600px"/></a>
+                <div class="carousel-caption">白夜行</div>
+              </div>
+              <div class="item">
+                <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554875654328&di=b15164f209c5e3081d85da5fbf6d0db2&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0179be5a28ae20a801216e8d19f6f7.jpg%402o.jpg" alt="Second slide">
+                <div class="carousel-caption">嫌疑人X的献身</div>
+              </div>
+              <div class="item">
+                <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2957777982,1868592894&fm=26&gp=0.jpg" height="200px" width="600px" alt="Third slide">
+                <div class="carousel-caption">放学后</div>
+              </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+          </div> 
+          <hr>
+          <div class="container projects">
+
+          <table>
+            <tr>
+                <td><img src="http://www.people.com.cn/mediafile/pic/20150722/59/8132386019409741975.jpg" width="200px" height="200px"/>
+                  <br><a href="https://www.so.com/s?q=%E8%99%9A%E6%97%A0%E7%9A%84%E5%8D%81%E5%AD%97%E6%9E%B6%E4%B8%9C%E9%87%8E%E5%9C%AD%E5%90%BE&src=srp&fr=360se7_addr&psid=8cfe40547f581247e9a3a781a1426a77" target="_blank">虚无的十字架</a></td>
+                  <td><img src="http://img.china.alibaba.com/img/ibank/2016/836/085/2983580638_989736529.400x400.jpg" width="200px" height="200px"/>
+                    <br><a href="https://www.so.com/s?ie=utf-8&src=360se7_addr&q=%E7%BA%A2%E6%89%8B%E6%8C%87%E4%B8%9C%E9%87%8E%E5%9C%AD%E5%90%BE" target="_blank">红手指</a></td>
+                    <td><img src="http://www.kfzimg.com/G06/M00/61/D8/p4YBAFteJEWAZ-qgAADQlS51cAc253_b.jpg" width="150px" height="200px"/>
+                      <br><a href="https://www.so.com/s?q=%E5%BD%B7%E5%BE%A8%E4%B9%8B%E5%88%83%E4%B8%9C%E9%87%8E%E5%9C%AD%E5%90%BE&src=srp&fr=360se7_addr&psid=5150e168e96b768cc0f293f25ee058b9" target="_blank">彷徨之刃</a></td>
+                      <td><img src="http://www.kfzimg.com/G07/M00/CA/CA/q4YBAFvT2_-AUz02AAC2tWD1K2Q506_b.jpg" width="150px" height="200px"/>
+                        <br><a href="https://www.so.com/s?q=%E6%AF%92%E7%AC%91%E5%B0%8F%E8%AF%B4+%E4%B8%9C%E9%87%8E%E5%9C%AD%E5%90%BE&ie=utf-8&src=se7_newtab_new" target="_blank">毒笑小说</a></td>
+                        <td><img src="http://image2.suning.cn/b2c/catentries/000000000131207829_1_600x600.jpg" width="150px" height="200px"/>
+                          <br><a href="https://www.so.com/s?q=%E5%B8%83%E8%B0%B7%E9%B8%9F%E7%9A%84%E8%9B%8B%E6%98%AF%E8%B0%81%E7%9A%84%E4%B8%9C%E9%87%8E%E5%9C%AD%E5%90%BE&src=srp&fr=se7_newtab_new&psid=83dfe3c80218be4603eb897ec947bfa8" target="_blank">布谷鸟的蛋是谁的</a></td>
+                          <td><img src="http://g.search1.alicdn.com/img/bao/uploaded/i4/i2/TB1h_4iMpXXXXXoaXXXXXXXXXXX_!!0-item_pic.jpg_200x200.jpg" width="150px" height="200px"/>
+                            <br><a href="https://www.so.com/s?q=%E6%96%B0%E5%8F%82%E8%80%85%E4%B8%9C%E9%87%8E%E5%9C%AD%E5%90%BE&src=srp&fr=se7_newtab_new&psid=e0a17e4e9336a388d47275d286acec05" target="_blank">新参者</a></td>
+                            <td><img src="http://www.kfzimg.com/G06/M00/C6/37/p4YBAFsDxSeAPr15AAA2qfYjmu4159_b.jpg" width="150px" height="200px"/>
+                              <br><a href="https://www.so.com/s?q=%E9%BB%91%E7%AC%91%E5%B0%8F%E8%AF%B4%E4%B8%9C%E9%87%8E%E5%9C%AD%E5%90%BE&src=srp&fr=se7_newtab_new&psid=73b1fd9c4fd6f8f156588bfafc6d9519" target="_blank">黑笑小说</a></td>
+                </tr></table>
+         
+              
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+        <ul id="myTab" class="nav nav-tabs">
+            <li class="active">
+              <a href="#home" data-toggle="tab">
+                作者
+              </a>
+            </li>
+            <li><a href="#ios" data-toggle="tab">总作品</a></li>
+            <li class="dropdown">
+              <a href="#" id="myTabDrop1" class="dropdown-toggle" 
+                 data-toggle="dropdown">翻拍
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+                <li><a href="#jmeter" tabindex="-1" data-toggle="tab">白夜行</a></li>
+                <li><a href="#ejb" tabindex="-1" data-toggle="tab">嫌疑人X的献身</a></li>
+                <li><a href="#aaa" tabindex="-1" data-toggle="tab">秘密</a></li>
+                <li><a href="#bbb" tabindex="-1" data-toggle="tab">流星之绊</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="home">
+              <p>东野圭吾(ひがしの けいご，Higashino Keigo)日本<a href="https://baike.so.com/doc/122180-129018.html" target="_blank">推理</a>小说天王。1958年2月4日出生于日本大阪。毕业于大阪府立大学电气工学专业，之后在汽车零件供应商日本电装担任生产技术工程师，并进行推理小说的创作。<br>&nbsp;&nbsp;&nbsp;&nbsp;1985年，凭借《放学后》获得第31回江户川乱步奖，从此成为职业作家，开始专职写作。早期作品多为精巧细致的本格推理，后期笔锋愈发老辣，文字鲜加雕琢，叙述简练凶狠，情节跌宕诡异，故事架构几至匪夷所思的地步，擅长从极不合理处写出极合理的故事，作风逐渐超越传统推理小说的框架。2011年11月21日，2011第六届中国作家富豪榜子榜单"外国作家富豪榜"重磅发布，东野圭吾以480万元的年度版税收入，荣登外国作家富豪榜第5位，引发广泛关注。
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;  2017年4月，第十一届中国作家富豪榜子榜单“外国作家富豪榜”发布，东野圭吾以2200万元的版税收入，荣登外国作家富豪榜首位。同年出版小说《风雪追击》、《第十年的情人节》。</p>
+            </div>
+            <div class="tab-pane fade" id="ios">
+              <p>《秘密》
+
+                  《侦探伽利略》                  《预知梦》                  《湖边凶杀案》
+                  《嫌疑人X的献身》
+                  《白夜行》
+                  《宿命》
+                  《恶意》<br>
+                  《变身》
+                  《幻夜》
+                  《放学后》
+                  《时生》
+                  《名侦探的守则》
+                  《名侦探的诅咒》
+                  《流星之绊》
+                  《黑笑小说》<br>
+                  《毒笑小说》
+                  《怪笑小说》
+                  《分身》
+                  《单恋》
+                  《彷徨之刃》
+                  《杀人之门》
+                  《鸟人计划》
+                  《超杀人事件》
+                  《红手指》
+                  《悖论13》
+                  《新参者》
+                  《美丽的凶器》
+                  《平行世界·爱情故事》
+                  《同级生》
+                  《黎明之街》
+                  《毕业》
+                  《假面饭店》
+                  《解忧杂货店》
+                  《圣女的救济》
+                  《伽利略的苦恼》
+                  《信》
+                  《圣诞阿姨》
+                  《十一字杀人》
+                  《绑架游戏》<br>
+                  《濒死之眼》
+                  《回廊亭杀人事件》
+                  《没有凶手的杀人夜》
+                  《怪人们》
+                  《白马山庄杀人事件》
+                  《梦回都灵》
+                  《以眨眼干杯》
+                  《布谷鸟的蛋是谁的》</p>
+            </div>
+            <div class="tab-pane fade" id="jmeter">
+              <p>日本电视剧版
+
+                  【原 作】：「白夜行」东野圭吾 著（集英社）<br>
+                  
+                  
+                  【编　剧】：森下佳子<br>
+                  
+                  【配　乐】：河野　伸<br>
+                  
+                  【制作人】：石丸彰彦<br>
+                  
+                  【音乐制作人】：志田博英<br>
+                  
+                  桐原亮司——山田孝之（幼少时代の亮司/泉泽佑希）<br>
+                  
+                  唐沢雪穗——绫濑遥（幼少时代の雪穗[/福田麻由子）<br>
+                  
+                  笹垣润三——武田铁矢<br>
+                  
+                  松浦 勇——渡部笃郎（特别出演）<br>
+                  
+                  篠冢一成——柏原 崇<br>
+                  日本电影版<br>
+
+                  【原 作】：「白夜行」东野圭吾 着（集英社）<br>
+                  
+                  【年代】：2010年<br>
+                  唐泽雪穗——堀北真希<br>
+                  
+                  桐原亮司——高良健吾<br>
+                  
+                  笹垣润三——船越英一郎<br>
+                  
+                  松浦 勇 ——田中哲司<br>
+                  
+                  篠冢一成——姜畅雄</p>
+            </div>
+            <div class="tab-pane fade" id="ejb">
+              <p>【中文剧名】：嫌疑人X的献身<br>
+
+                  【日文剧名】：容疑者Xの献身<br>
+                  
+                  【原 作】：(日本)东野圭吾<br>
+                  
+                  【首　播】：2008<br>
+                  
+                  【回　数】：全一回<br>
+                  
+                  【导　演】：西谷弘<br>
+                  
+                  【编　剧】：西谷弘<br>
+                  
+                  堤真一 饰 石神哲哉<br>
+                  
+                  福山雅治 饰 汤川学<br>
+                  
+                  松雪泰子 饰 花岗靖子<br>
+                  
+                  柴咲コウ 饰 内海薰<br>
+                  
+                  北村一辉 饰 草剃俊平<br>
+              </p>
+            </div>
+            <div class="tab-pane fade" id="aaa">
+                <p>日本电影版<br>
+导演：<br>
+                    
+                    泷田洋二郎 Takita Youjirou<br>
+                    
+                    原著：
+                    
+                    东野圭吾 Keigo Higashino<br>
+                    
+                    主演：<br>
+                    
+                    大杉涟 Ren Osugi<br>
+                    
+                    小林薰 Kaoru Kobayashi<br>
+                    
+                    广末凉子 Hirosue Ryoko<br>
+                    
+                    安绮珍儿 Masako<br>
+                    
+                    类型：幻想 / 剧情<br>
+                    
+                    更多外文片名：Secret<br>
+                    
+                    对白语言：日语<br>
+                    
+                    发行公司：东宝<br>
+                    
+                    上映日期：1999年9月25日 日本</p>
+              </div>
+              <div class="tab-pane fade" id="bbb">
+                  <p>日文剧名：流星の绊　<br>
+                      
+                      电视台：TBS<br>
+                      
+                      首　播：2008-10-17<br>
+                      制作人：矶山晶、那须田淳<br>
+                      音乐制作人：志田博英<br>
+                      演　员：<br>
+                      
+                      有明功一 … 二宫和也<br>
+                      
+                      有明功一（幼少）…斋藤隆成<br>
+                      
+                      有明泰辅 … 锦戸亮<br>
+                      
+                      有明泰辅 （幼少）…嘉数一星<br>
+                      
+                      有明静奈 … 户田惠梨香<br>
+                      
+                      有明静奈（幼少） …熊田圣亜<br>
+                      
+                      戸神行成 … 要　润<br>
+                      
+                      主题曲：『Beautiful days』岚<br>
+                      
+                      插曲：『ORION』中岛美嘉<br>
+                      导演：金子文纪、石井康晴、等<br>
+                      
+                      配乐：河野伸</p>
+                </div>
+          </div>
+
+
+      <hr class="hidden-sm hidden-md hidden-lg">
+    </div>
+    <div class="col-sm-8">
+     <ul>
+    <li>
+     <h3>东野圭吾的新闻</h3>
+    </li>
+    <li><a href="http://sh.qihoo.com/pc/94efbbe1ecafdd2a3?cota=3&sign=360_e39369d1&refer_scene=so_54" target="_blank"> 东野圭吾《祈祷落幕时》曝光终极预告</a>
+    <p>时光网讯根据日本著名推理小说作家东野圭吾同名小说改编的电影《祈祷落幕时》将于4月12日全国公映。今日,电影终极预告正式发布,神探加贺恭一郎在追查连环杀人案..</p></li>
+     <li><a href="http://sh.qihoo.com/pc/90a45a873306cfcb1?cota=3&sign=360_e39369d1&refer_scene=so_54" target="_blank">东野圭吾新电影点映,又挑战了伦理底线</a></li>
+     <li><a href="http://sh.qihoo.com/pc/9c8d6c9179b54f372?cota=3&sign=360_e39369d1&refer_scene=so_54" target="_blank">东野圭吾《盛夏的方程式》究竟是可耻的利用还是真诚的救赎</a></li>
+     <li><a href="http://www.sohu.com/a/306872621_100181969" target="_blank">东野圭吾《嫌疑人X的献身》系列:这个侦探,有点苏</a></li>
+  </ul> 
+      <br>
+      <table border="1" bordercolor="#000000" background="file:///C:/Users/Administrator/Desktop/d4c376194d24f09b46e233cea95fd9d5e3e1214cd30f-7z2wJ6_fw658.jpg">
+        <caption>基本信息</caption>
+        <tr><td>中文名</td><td><a href="https://baike.so.com/doc/297327-314755.html" target="_blank">东野圭吾</a></td><td>职业</td><td>日本著名作家，生产技术工程师</td></tr>
+        <tr><td>外文名 </td><td>HigashinoKeigo</td><td>毕业院校</td><td>校大阪府立大学电气工学专业</td></tr>
+        <tr><td>国籍</td><td>日本</td><td>主要成就</td><td>《嫌疑人X的献身》揽得“三冠”</td></tr>
+        <tr><td>民族</td><td>大和民族</td><td>第134届直木奖, 2006年三大推理小说排行榜第1名, 第</td><td>2014年11月</td></tr>
+        <tr><td>出生地</td><td>日本大阪</td><td>单行本册数</td><td>11卷</td></tr>
+        <tr><td>出生日期</td><td>1958年2月4日</td><td>代表作品</td><td><a href="https://baike.so.com/doc/6562928-6776683.html" target="_blank">《恶意》</a><a href="https://baike.so.com/doc/4061622-4260056.html" target="_blank">《白夜行》</a><a href="https://baike.so.com/doc/5406684-10414825.html" target="_blank">《嫌疑人X的献身》</a><a href="https://baike.so.com/doc/6490647-6704355.html" target="_blank">《幻夜》</a>等。</td></tr>
+        <tr><td>星座</td><td>水瓶座</td></tr>
+        </table>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>关于我的</p>
+  <div class="bot">
+        <div class="bot_in">
+        <ul>    
+        <li>联系方式：0577-12345678　联系地址：中国.浙江.温州 (茶山高教园区) 邮编：325035 技术支持：<a href='https://www.bilibili.com/'>bilibili</a>　
+        访问统计：<script language='javascript' type='text/javascript' src='http://quote.51.la/?id=5078625&amp;mb=1'></script>&nbsp; <script language='javascript' type='text/javascript' src='http://js.users.51.la/5078625.js'></script>
+        <noscript><a href='http://www.51.la/?5078625' target='_blank'><img alt='&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;' src='http://img.users.51.la/5078625.asp' style='border:none' /></a></noscript></li>   
+        <li>版权所有：温州大学瓯江学院一学生 Copyright &copy; 2006-2011  All Rights Reserved<br>
+        有问题请联系：<a href="mailto:1246264141@qq.com">1246264141@qq.com</a></li>
+    </ul>
+        
+        </div>
+        </div>
+        
+</div>
+</body>
+</html>
